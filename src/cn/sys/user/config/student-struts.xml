@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+	<package name="student-action" namespace="/system" extends="struts-default">
+		<action name="student_*" class="cn.sys.user.action.StudentAction" method="{1}">
+			<result name="list" type="redirectAction">
+				<param name="actionName">student_listUI</param>
+			</result>
+			<result name="{1}">/WEB-INF/jsp/user/{1}.jsp</result>
+		</action>
+	</package>
+
+	
+</struts>

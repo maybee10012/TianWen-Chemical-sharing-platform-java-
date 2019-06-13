@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="cn.sys.chemical.entity.Drug" table="drug">
+		<id name="id" type="java.lang.String">
+			<column name="id" length="32" />
+			<generator class="uuid.hex" />
+		</id>
+		<property name="chinesename" type="java.lang.String">
+			<column name="chinesename" length="20" not-null="true" />
+		</property>
+		<property name="englishname" type="java.lang.String">
+			<column name="englishname" length="20" not-null="true" />
+		</property>		
+		<property name="molecular" type="java.lang.String">
+			<column name="molecular" length="50" not-null="true"/>
+		</property>
+		<property name="factory" type="java.lang.String">
+		<column name="factory" not-null="true"></column>
+		</property>
+		<property name="purity" type="java.lang.String">
+			<column name="purity" length="10" />
+		</property>
+		<property name="traits" type="java.lang.String">
+			<column name="traits" length="30" />
+		</property>
+		<property name="height" type="java.lang.Double">
+			<column name="height"  />
+		</property>
+		<property name="principal" type="java.lang.String">
+			<column name="principal" length="20" />
+		</property>
+		<property name="usedate" type="java.util.Date">
+		    <column name="usedate" length="10"></column>
+		</property>
+		<property name="lable" type="java.lang.String">
+			<column name="lable" length="10" />
+		</property>
+		<property name="position" type="java.lang.String">
+			<column name="position" length="10" />
+		</property>
+		
+	</class>
+
+</hibernate-mapping>
+	

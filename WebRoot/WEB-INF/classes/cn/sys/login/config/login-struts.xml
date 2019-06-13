@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+	<package name="login-action" namespace="/system" extends="struts-default">
+		<action name="login_*" class="cn.sys.login.action.LoginAction"	method="{1}">
+			<result name="home" type="redirectAction">
+				<param name="actionName">home</param>
+			</result>
+			
+			
+			<result name="loginUI">/WEB-INF/jsp/loginUI.jsp</result>
+			<result name="registeredUI">/WEB-INF/jsp/registeredUI.jsp</result>
+			<result name="toNoPermissionUI">/WEB-INF/jsp/noPermissionUI.jsp</result>
+			
+		</action>
+	</package>
+
+
+</struts>
+

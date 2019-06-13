@@ -1,1 +1,4 @@
-# TianWen-Chemical-sharing-platform
+
+SSH框架 Struts+Spring+Hibernate
+实现功能：
+1.用户注册登录 2.用户管理模块 3.角色权限管理模块 4.化学品管理模块 5化学品使用以及使用情况记录和统计模块 5.实验室预约模块  6.教务相关模块

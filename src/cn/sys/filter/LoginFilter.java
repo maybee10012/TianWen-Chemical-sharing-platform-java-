@@ -55,7 +55,7 @@ public class LoginFilter implements Filter{
 				   }else{
 					   response.sendRedirect(request.getContextPath()+"/system/login_toNoPermissionUI.action");
 				   }
-			   }//非纳税服务子系统
+			   }//非服务子系统
 				filterChain.doFilter(request, response);
 			   
 		   }else{

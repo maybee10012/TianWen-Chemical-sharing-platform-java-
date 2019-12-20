@@ -12,6 +12,6 @@ var $lang={
     timeStr: "TimeTime        ",
     quickStr: "Quick Selection",
     err_1: 'MinDate Cannot be bigger than MaxDate!'
-    err_1: 'MinDate '
+    err_1: 'MinDate woyaoceshihebing'
 
 }

@@ -8,7 +8,7 @@ var $lang={
     todayStr: "Today",
     okStr: "OK",
     updateStr: "OK",
-    timeStr: "Time",
+    timeStr: "TimeTime        ",
     quickStr: "Quick Selection",
     err_1: 'MinDate Cannot be bigger than MaxDate!'
 }

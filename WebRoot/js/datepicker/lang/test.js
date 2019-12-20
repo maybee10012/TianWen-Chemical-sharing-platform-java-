@@ -13,5 +13,7 @@ var $lang={
     quickStr: "Quick Selection",
     err_1: 'MinDate Cannot be bigger than MaxDate!'
     err_1: 'MinDate woyaoceshihebing'
+    quickStr: "Quick Selection 我要加写内容",
+    err_1: 'MinDate Cannot be bigger than MaxDate! 我要加写内容'
 
 }
